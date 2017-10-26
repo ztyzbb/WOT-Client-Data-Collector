@@ -67,7 +67,7 @@ namespace WOT数据采集程序
             settings.Indent = true;
             settings.OmitXmlDeclaration = true;
 
-            getTextProvider.TEXTDOMAIN = "potapov_quests";
+            getTextProvider.TEXTDOMAIN = "personal_missions_details";
 
             try
             {

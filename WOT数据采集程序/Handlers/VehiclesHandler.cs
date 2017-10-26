@@ -178,6 +178,8 @@ namespace WOT数据采集程序
             {
                 foreach (XmlNode currentVehicle in xmlreader.FirstChild.ChildNodes)
                 {
+                    if (currentVehicle.Name == "xmlref")
+                        continue;
                     Vehicles currentResult = new Vehicles();
                     currentResult.id = Int32.Parse(currentVehicle.SelectSingleNode("id").FirstChild.Value);
                     currentResult.countryid = countryid;
