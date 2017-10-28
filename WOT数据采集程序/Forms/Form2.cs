@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     public partial class Form2 : Form
     {

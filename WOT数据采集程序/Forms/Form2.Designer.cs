@@ -1,4 +1,4 @@
-﻿namespace WOT数据采集程序
+﻿namespace WOTDataCollector
 {
     partial class Form2
     {

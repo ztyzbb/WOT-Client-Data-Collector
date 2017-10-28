@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.IO.Compression;
 using endl = System.Environment;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     class ImagesHandler
     {

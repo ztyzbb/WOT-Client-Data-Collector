@@ -1,4 +1,4 @@
-﻿namespace WOT数据采集程序
+﻿namespace WOTDataCollector
 {
     partial class Form1
     {
@@ -43,29 +43,22 @@
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.grayTextBox2 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox1 = new WOT数据采集程序.GrayTextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.grayTextBox7 = new WOT数据采集程序.GrayTextBox();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            this.grayTextBox6 = new WOT数据采集程序.GrayTextBox();
             this.button10 = new System.Windows.Forms.Button();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.grayTextBox5 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox4 = new WOT数据采集程序.GrayTextBox();
             this.button7 = new System.Windows.Forms.Button();
-            this.grayTextBox3 = new WOT数据采集程序.GrayTextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -75,9 +68,6 @@
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
-            this.grayTextBox8 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox9 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox10 = new WOT数据采集程序.GrayTextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.button27 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -88,10 +78,6 @@
             this.button25 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
-            this.grayTextBox19 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox18 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox17 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox16 = new WOT数据采集程序.GrayTextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -103,14 +89,28 @@
             this.button20 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.grayTextBox15 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox14 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox13 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox12 = new WOT数据采集程序.GrayTextBox();
-            this.grayTextBox11 = new WOT数据采集程序.GrayTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.grayTextBox2 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox1 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox7 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox6 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox5 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox4 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox3 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox8 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox9 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox10 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox19 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox18 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox17 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox16 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox15 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox14 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox13 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox12 = new WOTDataCollector.GrayTextBox();
+            this.grayTextBox11 = new WOTDataCollector.GrayTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -126,6 +126,25 @@
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -292,32 +311,6 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // grayTextBox2
-            // 
-            this.grayTextBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox2.DefaultString = "导出目录";
-            this.grayTextBox2.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox2.Location = new System.Drawing.Point(6, 469);
-            this.grayTextBox2.Name = "grayTextBox2";
-            this.grayTextBox2.ReadOnly = true;
-            this.grayTextBox2.Size = new System.Drawing.Size(391, 21);
-            this.grayTextBox2.TabIndex = 8;
-            this.grayTextBox2.TabStop = false;
-            this.grayTextBox2.Text = "导出目录";
-            // 
-            // grayTextBox1
-            // 
-            this.grayTextBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox1.DefaultString = "坦克世界安装目录(如C:\\Games\\World_of_Tanks)";
-            this.grayTextBox1.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox1.Location = new System.Drawing.Point(6, 6);
-            this.grayTextBox1.Name = "grayTextBox1";
-            this.grayTextBox1.ReadOnly = true;
-            this.grayTextBox1.Size = new System.Drawing.Size(391, 21);
-            this.grayTextBox1.TabIndex = 7;
-            this.grayTextBox1.TabStop = false;
-            this.grayTextBox1.Text = "坦克世界安装目录(如C:\\Games\\World_of_Tanks)";
-            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(403, 468);
@@ -400,16 +393,6 @@
             this.textBox2.TabIndex = 7;
             this.textBox2.Text = resources.GetString("textBox2.Text");
             // 
-            // grayTextBox7
-            // 
-            this.grayTextBox7.DefaultString = "输入countryid";
-            this.grayTextBox7.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox7.Location = new System.Drawing.Point(5, 87);
-            this.grayTextBox7.Name = "grayTextBox7";
-            this.grayTextBox7.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox7.TabIndex = 3;
-            this.grayTextBox7.Text = "输入countryid";
-            // 
             // button13
             // 
             this.button13.Location = new System.Drawing.Point(324, 474);
@@ -439,19 +422,6 @@
             this.button11.Text = "添加";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // grayTextBox6
-            // 
-            this.grayTextBox6.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox6.DefaultString = "导出目录";
-            this.grayTextBox6.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox6.Location = new System.Drawing.Point(5, 140);
-            this.grayTextBox6.Name = "grayTextBox6";
-            this.grayTextBox6.ReadOnly = true;
-            this.grayTextBox6.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox6.TabIndex = 19;
-            this.grayTextBox6.TabStop = false;
-            this.grayTextBox6.Text = "导出目录";
             // 
             // button10
             // 
@@ -515,32 +485,6 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // grayTextBox5
-            // 
-            this.grayTextBox5.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox5.DefaultString = "选择igr_vehicles.mo";
-            this.grayTextBox5.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox5.Location = new System.Drawing.Point(5, 60);
-            this.grayTextBox5.Name = "grayTextBox5";
-            this.grayTextBox5.ReadOnly = true;
-            this.grayTextBox5.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox5.TabIndex = 11;
-            this.grayTextBox5.TabStop = false;
-            this.grayTextBox5.Text = "选择igr_vehicles.mo";
-            // 
-            // grayTextBox4
-            // 
-            this.grayTextBox4.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox4.DefaultString = "选择对应的MO文件";
-            this.grayTextBox4.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox4.Location = new System.Drawing.Point(5, 33);
-            this.grayTextBox4.Name = "grayTextBox4";
-            this.grayTextBox4.ReadOnly = true;
-            this.grayTextBox4.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox4.TabIndex = 10;
-            this.grayTextBox4.TabStop = false;
-            this.grayTextBox4.Text = "选择对应的MO文件";
-            // 
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(391, 5);
@@ -550,19 +494,6 @@
             this.button7.Text = "选择";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // grayTextBox3
-            // 
-            this.grayTextBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox3.DefaultString = "选择已解密的车辆Xml文件";
-            this.grayTextBox3.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox3.Location = new System.Drawing.Point(5, 6);
-            this.grayTextBox3.Name = "grayTextBox3";
-            this.grayTextBox3.ReadOnly = true;
-            this.grayTextBox3.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox3.TabIndex = 8;
-            this.grayTextBox3.TabStop = false;
-            this.grayTextBox3.Text = "选择已解密的车辆Xml文件";
             // 
             // tabPage4
             // 
@@ -668,45 +599,6 @@
             this.button17.Text = "选择";
             this.button17.UseVisualStyleBackColor = true;
             this.button17.Click += new System.EventHandler(this.button17_Click);
-            // 
-            // grayTextBox8
-            // 
-            this.grayTextBox8.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox8.DefaultString = "导出目录";
-            this.grayTextBox8.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox8.Location = new System.Drawing.Point(5, 86);
-            this.grayTextBox8.Name = "grayTextBox8";
-            this.grayTextBox8.ReadOnly = true;
-            this.grayTextBox8.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox8.TabIndex = 4;
-            this.grayTextBox8.TabStop = false;
-            this.grayTextBox8.Text = "导出目录";
-            // 
-            // grayTextBox9
-            // 
-            this.grayTextBox9.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox9.DefaultString = "选择地图MO文件";
-            this.grayTextBox9.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox9.Location = new System.Drawing.Point(5, 33);
-            this.grayTextBox9.Name = "grayTextBox9";
-            this.grayTextBox9.ReadOnly = true;
-            this.grayTextBox9.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox9.TabIndex = 23;
-            this.grayTextBox9.TabStop = false;
-            this.grayTextBox9.Text = "选择地图MO文件";
-            // 
-            // grayTextBox10
-            // 
-            this.grayTextBox10.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox10.DefaultString = "选择已解密的地图Xml文件";
-            this.grayTextBox10.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox10.Location = new System.Drawing.Point(5, 6);
-            this.grayTextBox10.Name = "grayTextBox10";
-            this.grayTextBox10.ReadOnly = true;
-            this.grayTextBox10.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox10.TabIndex = 21;
-            this.grayTextBox10.TabStop = false;
-            this.grayTextBox10.Text = "选择已解密的地图Xml文件";
             // 
             // tabPage5
             // 
@@ -823,58 +715,6 @@
             this.button23.Text = "选择";
             this.button23.UseVisualStyleBackColor = true;
             this.button23.Click += new System.EventHandler(this.button23_Click);
-            // 
-            // grayTextBox19
-            // 
-            this.grayTextBox19.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox19.DefaultString = "导出目录";
-            this.grayTextBox19.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox19.Location = new System.Drawing.Point(5, 113);
-            this.grayTextBox19.Name = "grayTextBox19";
-            this.grayTextBox19.ReadOnly = true;
-            this.grayTextBox19.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox19.TabIndex = 38;
-            this.grayTextBox19.TabStop = false;
-            this.grayTextBox19.Text = "导出目录";
-            // 
-            // grayTextBox18
-            // 
-            this.grayTextBox18.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox18.DefaultString = "选择achievements.mo";
-            this.grayTextBox18.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox18.Location = new System.Drawing.Point(5, 60);
-            this.grayTextBox18.Name = "grayTextBox18";
-            this.grayTextBox18.ReadOnly = true;
-            this.grayTextBox18.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox18.TabIndex = 29;
-            this.grayTextBox18.TabStop = false;
-            this.grayTextBox18.Text = "选择achievements.mo";
-            // 
-            // grayTextBox17
-            // 
-            this.grayTextBox17.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox17.DefaultString = "选择已反编译的records.py";
-            this.grayTextBox17.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox17.Location = new System.Drawing.Point(5, 33);
-            this.grayTextBox17.Name = "grayTextBox17";
-            this.grayTextBox17.ReadOnly = true;
-            this.grayTextBox17.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox17.TabIndex = 27;
-            this.grayTextBox17.TabStop = false;
-            this.grayTextBox17.Text = "选择已反编译的records.py";
-            // 
-            // grayTextBox16
-            // 
-            this.grayTextBox16.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox16.DefaultString = "选择已解密的achievements.xml";
-            this.grayTextBox16.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox16.Location = new System.Drawing.Point(5, 6);
-            this.grayTextBox16.Name = "grayTextBox16";
-            this.grayTextBox16.ReadOnly = true;
-            this.grayTextBox16.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox16.TabIndex = 25;
-            this.grayTextBox16.TabStop = false;
-            this.grayTextBox16.Text = "选择已解密的achievements.xml";
             // 
             // tabPage6
             // 
@@ -1004,71 +844,6 @@
             this.button18.UseVisualStyleBackColor = true;
             this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
-            // grayTextBox15
-            // 
-            this.grayTextBox15.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox15.DefaultString = "导出目录";
-            this.grayTextBox15.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox15.Location = new System.Drawing.Point(5, 140);
-            this.grayTextBox15.Name = "grayTextBox15";
-            this.grayTextBox15.ReadOnly = true;
-            this.grayTextBox15.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox15.TabIndex = 35;
-            this.grayTextBox15.TabStop = false;
-            this.grayTextBox15.Text = "导出目录";
-            // 
-            // grayTextBox14
-            // 
-            this.grayTextBox14.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox14.DefaultString = "选择potapov_quests.mo";
-            this.grayTextBox14.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox14.Location = new System.Drawing.Point(5, 87);
-            this.grayTextBox14.Name = "grayTextBox14";
-            this.grayTextBox14.ReadOnly = true;
-            this.grayTextBox14.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox14.TabIndex = 29;
-            this.grayTextBox14.TabStop = false;
-            this.grayTextBox14.Text = "选择potapov_quests.mo";
-            // 
-            // grayTextBox13
-            // 
-            this.grayTextBox13.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox13.DefaultString = "选择已解密的list.xml";
-            this.grayTextBox13.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox13.Location = new System.Drawing.Point(5, 60);
-            this.grayTextBox13.Name = "grayTextBox13";
-            this.grayTextBox13.ReadOnly = true;
-            this.grayTextBox13.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox13.TabIndex = 27;
-            this.grayTextBox13.TabStop = false;
-            this.grayTextBox13.Text = "选择已解密的list.xml";
-            // 
-            // grayTextBox12
-            // 
-            this.grayTextBox12.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox12.DefaultString = "选择已解密的tiles.xml";
-            this.grayTextBox12.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox12.Location = new System.Drawing.Point(5, 33);
-            this.grayTextBox12.Name = "grayTextBox12";
-            this.grayTextBox12.ReadOnly = true;
-            this.grayTextBox12.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox12.TabIndex = 25;
-            this.grayTextBox12.TabStop = false;
-            this.grayTextBox12.Text = "选择已解密的tiles.xml";
-            // 
-            // grayTextBox11
-            // 
-            this.grayTextBox11.BackColor = System.Drawing.SystemColors.Window;
-            this.grayTextBox11.DefaultString = "选择已解密的seasons.xml";
-            this.grayTextBox11.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.grayTextBox11.Location = new System.Drawing.Point(5, 6);
-            this.grayTextBox11.Name = "grayTextBox11";
-            this.grayTextBox11.ReadOnly = true;
-            this.grayTextBox11.Size = new System.Drawing.Size(380, 21);
-            this.grayTextBox11.TabIndex = 23;
-            this.grayTextBox11.TabStop = false;
-            this.grayTextBox11.Text = "选择已解密的seasons.xml";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(204, 532);
@@ -1101,6 +876,270 @@
             this.textBox1.Size = new System.Drawing.Size(485, 541);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = resources.GetString("textBox1.Text");
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // grayTextBox2
+            // 
+            this.grayTextBox2.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox2.DefaultText = "导出目录";
+            this.grayTextBox2.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox2.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox2.Location = new System.Drawing.Point(6, 469);
+            this.grayTextBox2.Name = "grayTextBox2";
+            this.grayTextBox2.ReadOnly = true;
+            this.grayTextBox2.Size = new System.Drawing.Size(391, 21);
+            this.grayTextBox2.TabIndex = 8;
+            this.grayTextBox2.TabStop = false;
+            this.grayTextBox2.Text = "导出目录";
+            // 
+            // grayTextBox1
+            // 
+            this.grayTextBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox1.DefaultText = "坦克世界安装目录(如C:\\Games\\World_of_Tanks)";
+            this.grayTextBox1.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox1.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox1.Location = new System.Drawing.Point(6, 6);
+            this.grayTextBox1.Name = "grayTextBox1";
+            this.grayTextBox1.ReadOnly = true;
+            this.grayTextBox1.Size = new System.Drawing.Size(391, 21);
+            this.grayTextBox1.TabIndex = 7;
+            this.grayTextBox1.TabStop = false;
+            this.grayTextBox1.Text = "坦克世界安装目录(如C:\\Games\\World_of_Tanks)";
+            // 
+            // grayTextBox7
+            // 
+            this.grayTextBox7.DefaultText = "输入countryid";
+            this.grayTextBox7.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox7.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox7.Location = new System.Drawing.Point(5, 87);
+            this.grayTextBox7.Name = "grayTextBox7";
+            this.grayTextBox7.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox7.TabIndex = 3;
+            this.grayTextBox7.Text = "输入countryid";
+            // 
+            // grayTextBox6
+            // 
+            this.grayTextBox6.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox6.DefaultText = "导出目录";
+            this.grayTextBox6.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox6.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox6.Location = new System.Drawing.Point(5, 140);
+            this.grayTextBox6.Name = "grayTextBox6";
+            this.grayTextBox6.ReadOnly = true;
+            this.grayTextBox6.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox6.TabIndex = 19;
+            this.grayTextBox6.TabStop = false;
+            this.grayTextBox6.Text = "导出目录";
+            // 
+            // grayTextBox5
+            // 
+            this.grayTextBox5.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox5.DefaultText = "选择igr_vehicles.mo";
+            this.grayTextBox5.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox5.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox5.Location = new System.Drawing.Point(5, 60);
+            this.grayTextBox5.Name = "grayTextBox5";
+            this.grayTextBox5.ReadOnly = true;
+            this.grayTextBox5.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox5.TabIndex = 11;
+            this.grayTextBox5.TabStop = false;
+            this.grayTextBox5.Text = "选择igr_vehicles.mo";
+            // 
+            // grayTextBox4
+            // 
+            this.grayTextBox4.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox4.DefaultText = "选择对应的MO文件";
+            this.grayTextBox4.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox4.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox4.Location = new System.Drawing.Point(5, 33);
+            this.grayTextBox4.Name = "grayTextBox4";
+            this.grayTextBox4.ReadOnly = true;
+            this.grayTextBox4.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox4.TabIndex = 10;
+            this.grayTextBox4.TabStop = false;
+            this.grayTextBox4.Text = "选择对应的MO文件";
+            // 
+            // grayTextBox3
+            // 
+            this.grayTextBox3.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox3.DefaultText = "选择已解密的车辆Xml文件";
+            this.grayTextBox3.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox3.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox3.Location = new System.Drawing.Point(5, 6);
+            this.grayTextBox3.Name = "grayTextBox3";
+            this.grayTextBox3.ReadOnly = true;
+            this.grayTextBox3.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox3.TabIndex = 8;
+            this.grayTextBox3.TabStop = false;
+            this.grayTextBox3.Text = "选择已解密的车辆Xml文件";
+            // 
+            // grayTextBox8
+            // 
+            this.grayTextBox8.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox8.DefaultText = "导出目录";
+            this.grayTextBox8.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox8.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox8.Location = new System.Drawing.Point(5, 86);
+            this.grayTextBox8.Name = "grayTextBox8";
+            this.grayTextBox8.ReadOnly = true;
+            this.grayTextBox8.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox8.TabIndex = 4;
+            this.grayTextBox8.TabStop = false;
+            this.grayTextBox8.Text = "导出目录";
+            // 
+            // grayTextBox9
+            // 
+            this.grayTextBox9.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox9.DefaultText = "选择地图MO文件";
+            this.grayTextBox9.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox9.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox9.Location = new System.Drawing.Point(5, 33);
+            this.grayTextBox9.Name = "grayTextBox9";
+            this.grayTextBox9.ReadOnly = true;
+            this.grayTextBox9.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox9.TabIndex = 23;
+            this.grayTextBox9.TabStop = false;
+            this.grayTextBox9.Text = "选择地图MO文件";
+            // 
+            // grayTextBox10
+            // 
+            this.grayTextBox10.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox10.DefaultText = "选择已解密的地图Xml文件";
+            this.grayTextBox10.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox10.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox10.Location = new System.Drawing.Point(5, 6);
+            this.grayTextBox10.Name = "grayTextBox10";
+            this.grayTextBox10.ReadOnly = true;
+            this.grayTextBox10.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox10.TabIndex = 21;
+            this.grayTextBox10.TabStop = false;
+            this.grayTextBox10.Text = "选择已解密的地图Xml文件";
+            // 
+            // grayTextBox19
+            // 
+            this.grayTextBox19.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox19.DefaultText = "导出目录";
+            this.grayTextBox19.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox19.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox19.Location = new System.Drawing.Point(5, 113);
+            this.grayTextBox19.Name = "grayTextBox19";
+            this.grayTextBox19.ReadOnly = true;
+            this.grayTextBox19.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox19.TabIndex = 38;
+            this.grayTextBox19.TabStop = false;
+            this.grayTextBox19.Text = "导出目录";
+            // 
+            // grayTextBox18
+            // 
+            this.grayTextBox18.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox18.DefaultText = "选择achievements.mo";
+            this.grayTextBox18.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox18.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox18.Location = new System.Drawing.Point(5, 60);
+            this.grayTextBox18.Name = "grayTextBox18";
+            this.grayTextBox18.ReadOnly = true;
+            this.grayTextBox18.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox18.TabIndex = 29;
+            this.grayTextBox18.TabStop = false;
+            this.grayTextBox18.Text = "选择achievements.mo";
+            // 
+            // grayTextBox17
+            // 
+            this.grayTextBox17.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox17.DefaultText = "选择已反编译的records.py";
+            this.grayTextBox17.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox17.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox17.Location = new System.Drawing.Point(5, 33);
+            this.grayTextBox17.Name = "grayTextBox17";
+            this.grayTextBox17.ReadOnly = true;
+            this.grayTextBox17.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox17.TabIndex = 27;
+            this.grayTextBox17.TabStop = false;
+            this.grayTextBox17.Text = "选择已反编译的records.py";
+            // 
+            // grayTextBox16
+            // 
+            this.grayTextBox16.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox16.DefaultText = "选择已解密的achievements.xml";
+            this.grayTextBox16.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox16.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox16.Location = new System.Drawing.Point(5, 6);
+            this.grayTextBox16.Name = "grayTextBox16";
+            this.grayTextBox16.ReadOnly = true;
+            this.grayTextBox16.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox16.TabIndex = 25;
+            this.grayTextBox16.TabStop = false;
+            this.grayTextBox16.Text = "选择已解密的achievements.xml";
+            // 
+            // grayTextBox15
+            // 
+            this.grayTextBox15.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox15.DefaultText = "导出目录";
+            this.grayTextBox15.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox15.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox15.Location = new System.Drawing.Point(5, 140);
+            this.grayTextBox15.Name = "grayTextBox15";
+            this.grayTextBox15.ReadOnly = true;
+            this.grayTextBox15.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox15.TabIndex = 35;
+            this.grayTextBox15.TabStop = false;
+            this.grayTextBox15.Text = "导出目录";
+            // 
+            // grayTextBox14
+            // 
+            this.grayTextBox14.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox14.DefaultText = "选择potapov_quests.mo";
+            this.grayTextBox14.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox14.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox14.Location = new System.Drawing.Point(5, 87);
+            this.grayTextBox14.Name = "grayTextBox14";
+            this.grayTextBox14.ReadOnly = true;
+            this.grayTextBox14.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox14.TabIndex = 29;
+            this.grayTextBox14.TabStop = false;
+            this.grayTextBox14.Text = "选择potapov_quests.mo";
+            // 
+            // grayTextBox13
+            // 
+            this.grayTextBox13.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox13.DefaultText = "选择已解密的list.xml";
+            this.grayTextBox13.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox13.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox13.Location = new System.Drawing.Point(5, 60);
+            this.grayTextBox13.Name = "grayTextBox13";
+            this.grayTextBox13.ReadOnly = true;
+            this.grayTextBox13.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox13.TabIndex = 27;
+            this.grayTextBox13.TabStop = false;
+            this.grayTextBox13.Text = "选择已解密的list.xml";
+            // 
+            // grayTextBox12
+            // 
+            this.grayTextBox12.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox12.DefaultText = "选择已解密的tiles.xml";
+            this.grayTextBox12.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox12.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox12.Location = new System.Drawing.Point(5, 33);
+            this.grayTextBox12.Name = "grayTextBox12";
+            this.grayTextBox12.ReadOnly = true;
+            this.grayTextBox12.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox12.TabIndex = 25;
+            this.grayTextBox12.TabStop = false;
+            this.grayTextBox12.Text = "选择已解密的tiles.xml";
+            // 
+            // grayTextBox11
+            // 
+            this.grayTextBox11.BackColor = System.Drawing.SystemColors.Window;
+            this.grayTextBox11.DefaultText = "选择已解密的seasons.xml";
+            this.grayTextBox11.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox11.IdleForeColor = System.Drawing.SystemColors.GrayText;
+            this.grayTextBox11.Location = new System.Drawing.Point(5, 6);
+            this.grayTextBox11.Name = "grayTextBox11";
+            this.grayTextBox11.ReadOnly = true;
+            this.grayTextBox11.Size = new System.Drawing.Size(380, 21);
+            this.grayTextBox11.TabIndex = 23;
+            this.grayTextBox11.TabStop = false;
+            this.grayTextBox11.Text = "选择已解密的seasons.xml";
             // 
             // Form1
             // 
@@ -1137,6 +1176,25 @@
             this.tabPage6.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grayTextBox11)).EndInit();
             this.ResumeLayout(false);
 
         }

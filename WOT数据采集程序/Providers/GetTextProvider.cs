@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     public class GetTextProvider
     {

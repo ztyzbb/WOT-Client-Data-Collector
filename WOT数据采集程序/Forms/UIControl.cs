@@ -3,7 +3,7 @@ using System.IO;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     public partial class Form1
     {

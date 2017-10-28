@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     class TextBoxConsole
     {

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using System.IO;
 using endl = System.Environment;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     public partial class Form1 : Form
     {
@@ -352,6 +352,11 @@ namespace WOT数据采集程序
             PersonalMissionsHandler.WriteQuests(comboBox4.SelectedIndex, outputPath, checkBox4.Checked);
 
             TextBoxConsole.WriteLine(endl.NewLine + "工作结束！");
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

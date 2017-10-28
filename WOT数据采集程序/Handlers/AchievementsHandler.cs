@@ -9,7 +9,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     class AchievementsHandler
     {

@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using endl = System.Environment;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     public class VehiclesHandler
     {

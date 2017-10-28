@@ -5,7 +5,7 @@ using System.IO.Compression;
 using System.Diagnostics;
 using endl = System.Environment;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
     class CacheProvider
     {

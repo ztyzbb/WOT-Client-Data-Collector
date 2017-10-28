@@ -3,43 +3,83 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.ComponentModel;
 
-namespace WOT数据采集程序
+namespace WOTDataCollector
 {
-    class GrayTextBox : TextBox
+    [ToolboxBitmap(typeof(TextBox))]
+    class GrayTextBox : TextBox, ISupportInitialize
     {
-        public GrayTextBox()
+        public GrayTextBox() { }
+
+        private Color idleForeColor = SystemColors.WindowText;
+        [Browsable(true), Category("Appearance"), Description("默认颜色")]
+        public Color IdleForeColor
         {
-            ForeColor = SystemColors.GrayText;
+            get { return idleForeColor; }
+            set { idleForeColor = value; }
         }
 
-        private string _defaultString;
-        [DefaultValue(typeof(string), ""), Description("默认字符")]
-        public string DefaultString
+        public void ResetIdleForeColer()
         {
-            get { return _defaultString; }
-            set
-            {
-                _defaultString = value;
-                if (ForeColor == SystemColors.GrayText)
-                    Text = _defaultString;
-            }
+            idleForeColor = SystemColors.WindowText;
+        }
+
+        public bool ShouldSerializeIdleForeColer()
+        {
+            return idleForeColor != SystemColors.WindowText;
+        }
+
+        private Color normalForeColor = SystemColors.WindowText;
+        [Browsable(true), Category("Appearance"), Description("有内容时的颜色")]
+        public Color NormalForeColor
+        {
+            get { return normalForeColor; }
+            set { normalForeColor = value; }
+        }
+
+        public void ResetNormalForeColor()
+        {
+            normalForeColor = SystemColors.WindowText;
+        }
+
+        public bool ShouldSerializeNormalForeColor()
+        {
+            return normalForeColor != SystemColors.WindowText;
+        }
+
+        private string defaultText;
+        [Browsable(true), DefaultValue(""), Category("Appearance"), Description("默认字符")]
+        public string DefaultText
+        {
+            get { return defaultText; }
+            set { defaultText = value; }
         }
 
         protected override void OnGotFocus(EventArgs e)
         {
-            if (ForeColor == SystemColors.GrayText)
-            {
+            if (ForeColor == idleForeColor)
                 Text = null;
-                ForeColor = SystemColors.WindowText;
-            }
         }
         protected override void OnLostFocus(EventArgs e)
         {
             if (Text.Length == 0)
-            {
-                ForeColor = SystemColors.GrayText;
-                Text = _defaultString;
-            }
+                Text = defaultText;
+        }
+
+        protected override void OnTextChanged(EventArgs e)
+        {
+            base.OnTextChanged(e);
+            if (Text.Length == 0 || Text == defaultText)
+                ForeColor = idleForeColor;
+            else
+                ForeColor = normalForeColor;
+        }
+
+        public void BeginInit() { }
+
+        public void EndInit()
+        {
+            if (Text.Length == 0 || Text == defaultText)
+                Text = defaultText;
         }
     }
 }
